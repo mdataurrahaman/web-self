@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800&display=swap');
+@import url(./frameworke.css);
+
+:root {
+
+  --white: #ffffff;
+  --black: #000000;
+  --orange: #da8f0e;
+
+}
+
+.wrapper {
+  overflow-x: hidden;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#navbar-wrapper {
+
+  background-color: var(--white);
+  border-bottom: 2px solid transparent;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 9;
+
+}
+
+.nav-bar {
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--black);
+  text-transform: capitalize;
+  font-size: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+
+}
+
+.nav-logo {
+  max-width: 140px;
+  height: auto;
+
+}
+
+.hire-logo {
+  display: none;
+}
+
+.ham-bar {
+  display: none;
+}
+
+.close-menu {
+  display: none;
+}
+
+
+.nav-list-wrapper {
+  display: flex;
+}
+
+.nav-list-wrapper a {
+  text-align: center;
+  padding: 8px 12px;
+  margin: auto 15px;
+
+}
+
+.nav-list-wrapper a:hover {
+  background-color: #da8f0e;
+  transition: 0.3s;
+  border-radius: 6px;
+
+
+}
+
+.nav-btn {
+  background-color: transparent;
+  padding: 6px 16px;
+  border-radius: 4px;
+  border: 2px solid var(--orange);
+
+
+}
+
+.nav-btn:hover {
+  color: var(--white);
+  background-color: var(--orange);
+  text-decoration: none;
+  transition: 0.8s;
+
+}
