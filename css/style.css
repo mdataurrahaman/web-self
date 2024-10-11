@@ -2,7 +2,7 @@
 @import url(./frameworke.css);
 
 :root {
-
+  --bgcolor:#fefafa;
   --white: #ffffff;
   --black: #000000;
   --orange: #da8f0e;
@@ -15,6 +15,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: var(--bgcolor);
 }
 
 #navbar-wrapper {
@@ -27,20 +28,20 @@
   justify-content: center;
   position: fixed;
   z-index: 9;
+  background-color: var(--bgcolor);
 
 }
 
 .nav-bar {
-  width: 1440px;
+  width: 1630px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: var(--black);
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 27px;
   padding-left: 8px;
   padding-right: 8px;
-
 }
 
 .nav-logo {
