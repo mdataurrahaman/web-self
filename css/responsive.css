@@ -1,3 +1,15 @@
+@media only screen and (max-width: 1630px) {
+   /* 1320 */
+
+
+   .nav-bar {
+      width: 1630px;
+      
+   }
+
+
+}
+
 @media only screen and (max-width: 1440px) {
    /* 1320 */
 

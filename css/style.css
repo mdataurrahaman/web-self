@@ -3,6 +3,7 @@
 
 :root {
   --bgcolor:#fefafa;
+  --btncolor:#ec5b53;
   --white: #ffffff;
   --black: #000000;
   --orange: #da8f0e;
@@ -80,7 +81,7 @@
 }
 
 .nav-list-wrapper a:hover {
-  background-color: #da8f0e;
+  background-color:var(--btncolor);
   transition: 0.3s;
   border-radius: 6px;
 
@@ -91,14 +92,14 @@
   background-color: transparent;
   padding: 6px 16px;
   border-radius: 4px;
-  border: 2px solid var(--orange);
+  border: 2px solid var(--btncolor);
 
 
 }
 
 .nav-btn:hover {
   color: var(--white);
-  background-color: var(--orange);
+  background-color: var(--btncolor);
   text-decoration: none;
   transition: 0.8s;
 
