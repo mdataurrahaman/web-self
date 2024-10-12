@@ -1,9 +1,10 @@
-@media only screen and (max-width: 1440px) {
+@media only screen and (min-width: 1440px) {
    /* 1320 */
 
 
    .nav-bar {
-      max-width: 100%;
+      width: 100%;
+      
    }
 
 
@@ -18,6 +19,7 @@
 
    /* 960 */
    .nav-bar {
+      width: 100%;
       flex-direction: column;
       padding-left: 4px;
       padding-right: 8px;

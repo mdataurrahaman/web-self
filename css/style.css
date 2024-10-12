@@ -16,6 +16,7 @@
   flex-direction: column;
   align-items: center;
   background-color: var(--bgcolor);
+  width: 100%;
 }
 
 #navbar-wrapper {
@@ -34,6 +35,10 @@
 
 .nav-bar {
   width: 1630px;
+  -webkit-width: 1630px;
+  -moz-width: 1630px; 
+  -ms-width: 1630px; 
+  -o-width: 1630px; 
   display: flex;
   align-items: center;
   justify-content: space-between;
