@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800&display=swap');
 @import url(./frameworke.css);
-
 :root {
   --bgcolor:#fefafa;
   --btncolor:#ec5b53;
   --white: #ffffff;
   --black: #000000;
   --orange: #da8f0e;
+}
 
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .wrapper {
@@ -20,8 +24,8 @@
   width: 100%;
 }
 
+/* navbar  */
 #navbar-wrapper {
-
   background-color: var(--white);
   border-bottom: 2px solid transparent;
   width: 100%;
@@ -31,15 +35,13 @@
   position: fixed;
   z-index: 9;
   background-color: var(--bgcolor);
-
 }
-
 .nav-bar {
-  width: 1630px;
-  -webkit-width: 1630px;
-  -moz-width: 1630px; 
-  -ms-width: 1630px; 
-  -o-width: 1630px; 
+  width: 1600px;
+  -webkit-width: 1600px;
+  -moz-width: 1600px; 
+  -ms-width: 1600px; 
+  -o-width: 1600px; 
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -49,58 +51,140 @@
   padding-left: 8px;
   padding-right: 8px;
 }
-
 .nav-logo {
   max-width: 140px;
   height: auto;
-
 }
-
 .hire-logo {
   display: none;
 }
-
 .ham-bar {
   display: none;
 }
-
 .close-menu {
   display: none;
 }
-
-
 .nav-list-wrapper {
   display: flex;
 }
-
 .nav-list-wrapper a {
   text-align: center;
   padding: 8px 12px;
   margin: auto 15px;
-
 }
-
 .nav-list-wrapper a:hover {
   background-color:var(--btncolor);
   transition: 0.3s;
   border-radius: 6px;
-
-
 }
-
 .nav-btn {
   background-color: transparent;
   padding: 6px 16px;
   border-radius: 4px;
   border: 2px solid var(--btncolor);
-
-
 }
-
 .nav-btn:hover {
   color: var(--white);
   background-color: var(--btncolor);
   text-decoration: none;
   transition: 0.8s;
+}
+/* //navbar  */
+
+
+/* herro-model  */
+
+.herro-wrapper {
+  padding-top: 110px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.herro-bg{
+  width: 1600px;
+  -webkit-width: 1600px;
+  -moz-width: 1600px; 
+  -ms-width: 1600px; 
+  -o-width: 1600px; 
+  display: flex;
+  flex-direction: row;
+  }
+  .herro-text {
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.herro-text-bg{
+  padding-left: 20px;
+}
+.herro-title-address{
+  font-weight: 500;
+  font-size: 30px;
+  color: var(--btncolor);
+}
+.herro-title{
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 40px;
+  line-height: 1;
+}
+.herrro-description{
+  font-size: 16px;
+  margin: 16px 0;
+  text-align: justify;
+  line-height: auto;
 
 }
+
+.herro-model{
+width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+.herro-model-bg{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+  
+  }
+.model-pic{
+  width: 100%;
+  
+  height: auto;
+
+}
+.herro-btn-bg{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.herro-btn {
+  background-color: transparent;
+  padding: 6px 16px;
+  border-radius: 4px;
+  border: 2px solid var(--btncolor);
+  font-size: 20px;
+}
+.herro-btn:hover {
+  color: var(--white);
+  background-color: var(--btncolor);
+  text-decoration: none;
+  transition: 0.8s;
+}
+
+
+/* //herro model  */
