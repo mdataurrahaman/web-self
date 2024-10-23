@@ -79,12 +79,13 @@
       color: black;
       position: absolute;
       right: 0;
-      margin-right: 70px;
+      margin-right: 100px;
       cursor: pointer;
    }
    .ham-bar {
       display: block;
       font-size: 50px;
+      margin-right: 16px;
    }
    .close-menu {
       font-size: 50px;
